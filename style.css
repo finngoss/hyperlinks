@@ -4,6 +4,26 @@ body {
 
 h1 {
   color: navy;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-indent: 40px;
+}
+
+a:link {
+  color: #AEC6CF; /* pastel blue */
+}
+
+a:visited {
+  color: #C3B1E1; /* pastel purple */
+}
+
+a:hover {
+  color: #FFB347; /* pastel orange */
+}
+
+a:active {
+  color: #77DD77; /* pastel green */
+}
