@@ -4,7 +4,7 @@ body {
 
 h1 {
   color: navy;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 * {
@@ -13,17 +13,17 @@ h1 {
 }
 
 a:link {
-  color: #AEC6CF; /* pastel blue */
+  color: #6f91ff;
 }
 
 a:visited {
-  color: #C3B1E1; /* pastel purple */
+  color: #89d0e3; 
 }
 
 a:hover {
-  color: #FFB347; /* pastel orange */
+  color: #ff0071; 
 }
 
 a:active {
-  color: #77DD77; /* pastel green */
+  color: #ffbb33;
 }
