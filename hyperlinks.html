@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hyperlinks</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <h1>More on Hyperlinks and the Web</h1>
+      <h2>Anatomy of a URL</h2>
+      <p><span style="color:red">https://</span><span style="color:green">musicforprogramming.net/</span><span style="color:blue">latest/</span></p>
+      <dl>
+        <dt><span style="color:red">https://</span></dt>
+        <dd>HyperText Transfer Protocol</dd>
+        <dd>Client is requesting a hypertext file from the server</dd>
+        <dt><span style="color:green">musicforprogramming.net/</span></dt>
+        <dd>Domain Name</dd>
+        <dd>Rerouts to an IP address, actual "location" of the server on the internet</dd>
+        <dt>span style="color:blue">latest/</span></dt>
+        <dd>pathname to the file that the client is specifically requesting</dd>
+        <dd>If the server has it, it will send the file through the internet to the client who will then be able to view the document!</dd>
+      </dl>
+
+      <h2>Anatomy of an HTML hyperlink (anchor)</h2>
+      <p><span style="color:purple"><code><a</code></span> <span style="color: orange"><code>href="musicforprogramming.net/listen"</code></span> <span style="color: yellow"><code>target="_blankt"</span>
+        <dl>
+        <dt><span style="color:purple"><code><a></a></code></span></dt>
+        <dd>HTML anchor element</dd>
+        <dd>Creates a hyperlink to a specified destination</dd>
+        <dt><span style="color:orange"><code>href="musicforprogramming.net/"</code></span></dt>
+        <dd>Hyperlink Reference (href)</dd>
+        <dd>Provides a destination for the link (presuming such a URL exists!)</dd>
+        <dt>span style="color:yellow"><code>target="_blank"</code></span></dt>
+        <dd>Additional attribute for the anchor elemnent</dd>
+        <dd>Specifically opens link in a new tab rahter than moving from your current page</dd>
+      </dl>  
+        <p><a href="https://musicforprogramming.net/listen" target=blank_>This is a link!</a></p>
+
+        <h3>Types of Hyperlinks</h3>
+        <ol>
+          <li>Bookmark/Skip Link: takes you to a specified place on the current document</li>
+          <li>Internal Link: takes you to a specificed destination on the current website/domain, but possibly a different page/document</li>
+          <li>External Link: takes you to a specified destination on a different domain</li>
+        </ol>
+    <h3>Things Hyperlinks can link to</h3>
+        <ul>
+          <li>HTTP(S)</li>
+          <li>Tel: Teleophone Number</li>
+          <li>mailto: email address</li>
+          <li>SMS: text message</li>
+          <li>JavaScript: execute functions</li>
+        </ul>
+
+    </body>
+</html>
