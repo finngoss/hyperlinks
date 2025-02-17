@@ -7,6 +7,16 @@ h1 {
   margin-left: 20px;
 }
 
+h2 {
+  color: #ba26ff;
+  margin-left: 20px;
+}
+
+h3 {
+  color: #262bff;
+  margin-left: 20px;
+}
+
 * {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-indent: 20px;
