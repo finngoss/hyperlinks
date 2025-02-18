@@ -23,15 +23,16 @@ h3 {
 }
 
 a:link {
-  color: #a6df05;
+  color: #ff0071; 
+
 }
 
 a:visited {
   color: #209e9e; 
 }
 
-a:hover {
-  color: #ff0071; 
+a:hover { 
+  color: #a6df05;
 }
 
 a:active {
