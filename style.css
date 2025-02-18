@@ -38,3 +38,24 @@ a:hover {
 a:active {
   color: #8cef26;
 }
+
+#container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+margin: 10px;
+}
+
+#finn {
+background-color: #f9e79f;
+border-style: dotted;
+border-width: thick;
+border-color: cyan;
+}
+
+#clar {
+background-color: cyan;
+border-style: dashed;
+border-width: thick;
+border-color: hotpink;
+}
